@@ -1,0 +1,23 @@
+#table{
+width:100%;
+border:2px solid black;
+border-collapse:collapse;
+font-family:arial;
+}
+#table th{
+border:2px solid grey;
+background-color:#b22222;
+color:white;
+padding-bottom:20px;
+padding-top:20px;
+}
+#table td{
+padding:8px;
+border:2px solid grey;
+}
+tr:nth-child(even){
+background-color:#f2f2f2;
+}
+tr:hover{
+background-color:burlywood;
+}
