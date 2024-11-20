@@ -26,12 +26,14 @@
 			if (!mobile || !mobileRegex.test(mobile)) {
 				errorMessage += "Please enter a valid 10-digit mobile number. \n";
 			}
-
 			// If there is any validation error, display it and prevent form submission
 			if (errorMessage) {
 				alert(errorMessage);
 				return false;  // Prevent form submission
 			}
+
+			// If no errors, show success message
+			alert("Form submitted successfully!");
 			return true;  // Allow form submission
 		}
 	</script>
